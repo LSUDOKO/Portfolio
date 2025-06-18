@@ -5,13 +5,14 @@ import "../styles/globals.css";
 import "../styles/themes.css";
 
 function MyApp({ Component, pageProps }) {
-
   useEffect(() => {
-    if (localStorage.getItem("theme")) {
-      document.documentElement.setAttribute(
-        "data-theme",
-        localStorage.getItem("theme")
-      );
+    const savedTheme = localStorage.getItem("theme");
+    if (savedTheme) {
+      document.documentElement.setAttribute("data-theme", savedTheme);
+    } else {
+      // Set Tokyo Night as default theme
+      document.documentElement.setAttribute("data-theme", "tokyo-night");
+      localStorage.setItem("theme", "tokyo-night");
     }
   }, []);
 

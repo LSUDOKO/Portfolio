@@ -237,7 +237,7 @@ const GithubPage = () => {
         </div>
       </div>
 
-      <div className={styles.githubSkills}>
+      {/* <div className={styles.githubSkills}>
         <h2 className={styles.sectionTitle}>
           <svg width="24" height="24" viewBox="0 0 16 16" fill="currentColor" className={styles.titleIcon}>
             <path fillRule="evenodd" d="M1.5 2.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v10.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25V2.75zM1.75 1A1.75 1.75 0 000 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0016 13.25V2.75A1.75 1.75 0 0014.25 1H1.75zm7.25 9.75a.75.75 0 000 1.5h3.75a.75.75 0 000-1.5H9zm-5.5-5a.5.5 0 000 1h7a.5.5 0 000-1h-7zm0 3a.5.5 0 000 1h7a.5.5 0 000-1h-7z" />
@@ -278,7 +278,7 @@ const GithubPage = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className={styles.footer}>
         <a href={`https://github.com/${username}?tab=repositories`} target="_blank" rel="noopener noreferrer" className={styles.footerLink}>

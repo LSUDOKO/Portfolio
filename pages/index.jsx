@@ -7,7 +7,7 @@ import Image from 'next/image';
 
 // FontAwesome imports
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faReact,faAws , faJs, faGolang, faNode } from '@fortawesome/free-brands-svg-icons';
+import { faReact, faJs, faGolang, faNode, faRust } from '@fortawesome/free-brands-svg-icons';
 
 
 export default function HomePage() {
@@ -39,7 +39,7 @@ export default function HomePage() {
                 <div className={styling.skillText}>React</div>
               </div>
 
-              {/* Skill item for WordPress */}
+              {/* Skill item for Golang */}
               <div className={styling.skillItem}>
                 <FontAwesomeIcon icon={faGolang} size="3x" className={`${styling.icon} ${styling.wordpressIcon}`} />
                 <div className={styling.skillText}>Golang</div>
@@ -49,18 +49,16 @@ export default function HomePage() {
               <div className={styling.skillItem}>
                 <FontAwesomeIcon icon={faJs} size="3x" className={`${styling.icon} ${styling.jsIcon}`} />
                 <div className={styling.skillText}>JavaScript</div>
-              </div>
-
-              {/* Skill item for Solana Rust */}
+              </div>              {/* Skill item for Rust */}
               <div className={styling.skillItem}>
-                <FontAwesomeIcon icon={faAws} size="3x" className={`${styling.icon} ${styling.rustIcon}`} />
-                <div className={styling.skillText}>AWS</div>
+                <FontAwesomeIcon icon={faRust} size="3x" className={`${styling.icon} ${styling.rustIcon}`} />
+                <div className={styling.skillText}>Rust</div>
               </div>
 
               {/* Skill item for Express.js */}
               <div className={styling.skillItem}>
                 <FontAwesomeIcon icon={faNode} size="3x" className={`${styling.icon} ${styling.nodeIcon}`} />
-                <div className={styling.skillText}>Express.js</div>
+                <div className={styling.skillText}>Node.js</div>
               </div>
             </div>
 

@@ -86,12 +86,11 @@ export default function AboutMe() {
                   height={200}
                   priority
                   className={styles.myImage}
-                />
-                <div className={styles.imageGlow}></div>
-                <div className={styles.status}>
-                  <span className={styles.statusDot}></span> Available for Work
-                </div>
+                />                <div className={styles.imageGlow}></div>
               </div>
+              {/* <div className={styles.status}>
+                <span className={styles.statusDot}></span> Available
+              </div> */}
               <div className={styles.personalInfoCard}>
                 <h3 className={styles.cardTitle}>Personal Info</h3>
                 <ul className={styles.list}>
@@ -126,10 +125,12 @@ export default function AboutMe() {
             
             <div className={styles.bioContainer}>
               <div className={styles.bioCard}>
-                <h3 className={styles.cardTitle}>Mobile App & Web Developer</h3>
+                <h3 className={styles.cardTitle}> Blockchain Developer | AI Automation Builder</h3>
                 <div className={styles.paragraph}>
-                  Innovative and deadline-driven Developer researching and developing solutions that meet client satisfaction using the easiest, yet effective approach possible. I make the whole concept of developing, a whole vibe - A Normal Life is Boring.
-                </div>
+                  Creative. Efficient. Passionate.
+                  <br></br>
+I'm a curious and deadline-driven developer who thrives on building smart solutions with clean logic and minimal complexity. Whether it's automating workflows, crafting intuitive user interfaces, or experimenting with the latest in AI, I make sure the process is as smooth as the result is powerful.
+For me, coding isn't just work — it's a vibe. Because honestly, a normal life is boring.                </div>
                 
                 <div className={styles.tagContainer}>
                   <span className={styles.tag}>Web Dev</span>
@@ -137,23 +138,26 @@ export default function AboutMe() {
                   <span className={styles.tag}>React</span>
                   <span className={styles.tag}>Next.js</span>
                   <span className={styles.tag}>Node</span>
-                  <span className={styles.tag}>AWS</span>
-                  <span className={styles.tag}>Firebase</span>
                   <span className={styles.tag}>MongoDB</span>
                   <span className={styles.tag}>Express</span>
                   <span className={styles.tag}>scala</span>
-                  <span className={styles.tag}>Docker</span>
                   <span className={styles.tag}>Golang</span>
-                  <span className={styles.tag}>Blockchain</span>
+                  <span className={styles.tag}>Solidity</span>
+                  <span className={styles.tag}>n8n</span>
+                  <span className={styles.tag}>Rust</span>
+                  <span className={styles.tag}>Python</span>
+                  <span className={styles.tag}>C++</span>
+                  <span className={styles.tag}>C</span>
+
                 </div>
                 
                 <div className={styles.buttonContainer}>
                   <a href="/arpit.pdf" className={styles.button}>
-                    <span className={styles.buttonIcon}>📄</span>
+                    <span className={styles.buttonIcon}></span>
                     Resume
                   </a>
                   <a href="mailto:adoranto737@gmail.com" className={styles.button}>
-                    <span className={styles.buttonIcon}>✉️</span>
+                    <span className={styles.buttonIcon}></span>
                     Contact Me
                   </a>
                 </div>
@@ -169,84 +173,164 @@ export default function AboutMe() {
             <div className={styles.underline}></div>
             
             <div className={styles.skillsGrid}>
-              <div id="js" className={`${styles.skill} ${visibleSkills.includes('js') ? styles.visibleSkill : ''}`}>
-                <div className={styles.skillHeader}>
-                  <span className={styles.skillName}>JavaScript & TypeScript</span>
-                  <span className={styles.skillPercent}>89%</span>
-                </div>
-                <div className={styles.progressBar}>
-                  <div className={styles.progress} style={{ width: '89%' }}></div>
-                </div>
+              <div className={styles.skill}>
+                <img src="https://techstack-generator.vercel.app/js-icon.svg" className={styles.skillIcon} alt="javascript" />
+                <span className={styles.skillName}>JavaScript</span>
               </div>
               
-              <div id="react" className={`${styles.skill} ${visibleSkills.includes('react') ? styles.visibleSkill : ''}`}>
-                <div className={styles.skillHeader}>
-                  <span className={styles.skillName}>ReactJS, NextJS & React Native</span>
-                  <span className={styles.skillPercent}>85%</span>
-                </div>
-                <div className={styles.progressBar}>
-                  <div className={styles.progress} style={{ width: '85%' }}></div>
-                </div>
+              <div className={styles.skill}>
+                <img src="https://skillicons.dev/icons?i=css" className={styles.skillIcon} alt="css3" />
+                <span className={styles.skillName}>CSS</span>
               </div>
               
-              <div id="aws" className={`${styles.skill} ${visibleSkills.includes('aws') ? styles.visibleSkill : ''}`}>
-                <div className={styles.skillHeader}>
-                  <span className={styles.skillName}>AWS and Docker</span>
-                  <span className={styles.skillPercent}>82%</span>
-                </div>
-                <div className={styles.progressBar}>
-                  <div className={styles.progress} style={{ width: '82%' }}></div>
-                </div>
+              <div className={styles.skill}>
+                <img src="https://techstack-generator.vercel.app/python-icon.svg" className={styles.skillIcon} alt="python" />
+                <span className={styles.skillName}>Python</span>
               </div>
               
-              <div id="node" className={`${styles.skill} ${visibleSkills.includes('node') ? styles.visibleSkill : ''}`}>
-                <div className={styles.skillHeader}>
-                  <span className={styles.skillName}>Websockets, ExpressJS & NodeJS</span>
-                  <span className={styles.skillPercent}>88%</span>
-                </div>
-                <div className={styles.progressBar}>
-                  <div className={styles.progress} style={{ width: '88%' }}></div>
-                </div>
+              <div className={styles.skill}>
+                <img src="https://skillicons.dev/icons?i=html" className={styles.skillIcon} alt="html5" />
+                <span className={styles.skillName}>HTML</span>
               </div>
               
-              <div id="golang" className={`${styles.skill} ${visibleSkills.includes('golang') ? styles.visibleSkill : ''}`}>
-                <div className={styles.skillHeader}>
-                  <span className={styles.skillName}>Golang</span>
-                  <span className={styles.skillPercent}>60%</span>
-                </div>
-                <div className={styles.progressBar}>
-                  <div className={styles.progress} style={{ width: '60%' }}></div>
-                </div>
+              <div className={styles.skill}>
+                <img src="https://techstack-generator.vercel.app/github-icon.svg" className={styles.skillIcon} alt="github" />
+                <span className={styles.skillName}>GitHub</span>
               </div>
               
-              <div id="css" className={`${styles.skill} ${visibleSkills.includes('css') ? styles.visibleSkill : ''}`}>
-                <div className={styles.skillHeader}>
-                  <span className={styles.skillName}>CSS and Tailwind</span>
-                  <span className={styles.skillPercent}>95%</span>
-                </div>
-                <div className={styles.progressBar}>
-                  <div className={styles.progress} style={{ width: '95%' }}></div>
-                </div>
+              <div className={styles.skill}>
+                <img src="https://skillicons.dev/icons?i=mongodb" className={styles.skillIcon} alt="mongodb" />
+                <span className={styles.skillName}>MongoDB</span>
               </div>
               
-              <div id="db" className={`${styles.skill} ${visibleSkills.includes('db') ? styles.visibleSkill : ''}`}>
-                <div className={styles.skillHeader}>
-                  <span className={styles.skillName}>Firebase, MongoDB and Redis</span>
-                  <span className={styles.skillPercent}>85%</span>
-                </div>
-                <div className={styles.progressBar}>
-                  <div className={styles.progress} style={{ width: '85%' }}></div>
-                </div>
+              <div className={styles.skill}>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" className={styles.skillIcon} alt="sqlite" />
+                <span className={styles.skillName}>SQLite</span>
               </div>
               
-              <div id="git" className={`${styles.skill} ${visibleSkills.includes('git') ? styles.visibleSkill : ''}`}>
-                <div className={styles.skillHeader}>
-                  <span className={styles.skillName}>Git & Postman</span>
-                  <span className={styles.skillPercent}>85%</span>
-                </div>
-                <div className={styles.progressBar}>
-                  <div className={styles.progress} style={{ width: '85%' }}></div>
-                </div>
+              <div className={styles.skill}>
+                <img src="https://techstack-generator.vercel.app/mysql-icon.svg" className={styles.skillIcon} alt="mysql" />
+                <span className={styles.skillName}>MySQL</span>
+              </div>
+              
+              <div className={styles.skill}>
+                <img src="https://techstack-generator.vercel.app/cpp-icon.svg" className={styles.skillIcon} alt="cpp" />
+                <span className={styles.skillName}>C++</span>
+              </div>
+              
+              <div className={styles.skill}>
+                <img src="https://techstack-generator.vercel.app/redux-icon.svg" className={styles.skillIcon} alt="redux" />
+                <span className={styles.skillName}>Redux</span>
+              </div>
+              
+              <div className={styles.skill}>
+                <img src="https://techstack-generator.vercel.app/django-icon.svg" className={styles.skillIcon} alt="django" />
+                <span className={styles.skillName}>Django</span>
+              </div>
+              
+              <div className={styles.skill}>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" className={styles.skillIcon} alt="c" />
+                <span className={styles.skillName}>C</span>
+              </div>
+              
+              <div className={styles.skill}>
+                <img src="https://techstack-generator.vercel.app/ts-icon.svg" className={styles.skillIcon} alt="typescript" />
+                <span className={styles.skillName}>TypeScript</span>
+              </div>
+              
+              <div className={styles.skill}>
+                <img src="https://techstack-generator.vercel.app/react-icon.svg" className={styles.skillIcon} alt="react" />
+                <span className={styles.skillName}>React</span>
+              </div>
+              
+              <div className={styles.skill}>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" className={styles.skillIcon} alt="figma" />
+                <span className={styles.skillName}>Figma</span>
+              </div>
+              
+              <div className={styles.skill}>
+                <img src="https://cdn.simpleicons.org/jupyter/F37626" className={styles.skillIcon} alt="jupyter" />
+                <span className={styles.skillName}>Jupyter</span>
+              </div>
+              
+              <div className={styles.skill}>
+                <img src="https://imgs.search.brave.com/TGmEQZBLfzt8COMRcH7TFt8IM2pcfKJ3fXdocfgae7U/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4t/aWNvbnMtcG5nLmZs/YXRpY29uLmNvbS81/MTIvNjEzMi82MTMy/MjIwLnBuZw" className={styles.skillIcon} alt="scala" />
+                <span className={styles.skillName}>Scala</span>
+              </div>
+
+              {/* New Skills */}
+              <div className={styles.skill}>
+                <img src="https://techstack-generator.vercel.app/restapi-icon.svg" className={styles.skillIcon} alt="rest api" />
+                <span className={styles.skillName}>REST API</span>
+              </div>
+
+              <div className={styles.skill}>
+                <img src="https://techstack-generator.vercel.app/jest-icon.svg" className={styles.skillIcon} alt="jest" />
+                <span className={styles.skillName}>Jest</span>
+              </div>
+
+              <div className={styles.skill}>
+                <img src="https://techstack-generator.vercel.app/aws-icon.svg" className={styles.skillIcon} alt="aws" />
+                <span className={styles.skillName}>AWS</span>
+              </div>
+
+              <div className={styles.skill}>
+                <img src="https://techstack-generator.vercel.app/java-icon.svg" className={styles.skillIcon} alt="java" />
+                <span className={styles.skillName}>Java</span>
+              </div>
+              <div className={styles.skill}>
+                <img src="https://techstack-generator.vercel.app/prettier-icon.svg" className={styles.skillIcon} alt="prettier" />
+                <span className={styles.skillName}>Prettier</span>
+              </div>
+
+              <div className={styles.skill}>
+                <img src="https://techstack-generator.vercel.app/graphql-icon.svg" className={styles.skillIcon} alt="graphql" />
+                <span className={styles.skillName}>GraphQL</span>
+              </div>
+
+              <div className={styles.skill}>
+                <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/Bash-Dark.svg" className={styles.skillIcon} alt="bash" />
+                <span className={styles.skillName}>Bash</span>
+              </div>
+
+              <div className={styles.skill}>
+                <img src="https://github.com/tandpfun/skill-icons/raw/main/icons/Flutter-Dark.svg" className={styles.skillIcon} alt="flutter" />
+                <span className={styles.skillName}>Flutter</span>
+              </div>
+
+              <div className={styles.skill}>
+                <img src="https://github.com/tandpfun/skill-icons/raw/main/icons/GoLang.svg" className={styles.skillIcon} alt="golang" />
+                <span className={styles.skillName}>Go</span>
+              </div>
+
+              <div className={styles.skill}>
+                <img src="https://github.com/tandpfun/skill-icons/raw/main/icons/Kafka.svg" className={styles.skillIcon} alt="kafka" />
+                <span className={styles.skillName}>Kafka</span>
+              </div>
+
+              <div className={styles.skill}>
+                <img src="https://github.com/tandpfun/skill-icons/raw/main/icons/Linux-Dark.svg" className={styles.skillIcon} alt="linux" />
+                <span className={styles.skillName}>Linux</span>
+              </div>
+
+              <div className={styles.skill}>
+                <img src="https://github.com/tandpfun/skill-icons/raw/main/icons/NextJS-Dark.svg" className={styles.skillIcon} alt="nextjs" />
+                <span className={styles.skillName}>Next.js</span>
+              </div>
+
+              <div className={styles.skill}>
+                <img src="https://github.com/tandpfun/skill-icons/raw/main/icons/PostgreSQL-Dark.svg" className={styles.skillIcon} alt="postgresql" />
+                <span className={styles.skillName}>PostgreSQL</span>
+              </div>
+
+              <div className={styles.skill}>
+                <img src="https://github.com/tandpfun/skill-icons/raw/main/icons/Rust.svg" className={styles.skillIcon} alt="rust" />
+                <span className={styles.skillName}>Rust</span>
+              </div>
+
+              <div className={styles.skill}>
+                <img src="https://github.com/tandpfun/skill-icons/raw/main/icons/Supabase-Dark.svg" className={styles.skillIcon} alt="supabase" />
+                <span className={styles.skillName}>Supabase</span>
               </div>
             </div>
           </div>
