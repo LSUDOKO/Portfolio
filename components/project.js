@@ -12,7 +12,7 @@ export const getProjects = () => {
   },
   {"id":2,
     "name":"AI-Recruiter-Agent",
-    "image":"https://private-user-images.githubusercontent.com/173903994/456072060-28ed6901-536f-41a8-b3e0-0281dd600da4.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTAxNzQxMTcsIm5iZiI6MTc1MDE3MzgxNywicGF0aCI6Ii8xNzM5MDM5OTQvNDU2MDcyMDYwLTI4ZWQ2OTAxLTUzNmYtNDFhOC1iM2UwLTAyODFkZDYwMGRhNC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNjE3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDYxN1QxNTIzMzdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lMjYwYzBkMWM0MWY4YTJmMGEwOTE5NmI2YjZhYzc0YWE0NjI5NDc5MWYwYjA0ZTQyYjdjNWZiMGFkNjUwNmNmJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.gvYyFtR_jLuRnf9hkxJ1urTe6H_Y9LhMPfcBY_yjPkw",
+    "image":"https://i.imgur.com/iyDZHDN.png",
     "description":"An AI-powered recruitment automation tool that helps recruiters screen resumes instantly using ATS scoring, job-specific criteria, and no-code automation.",
     "tags":["react.js","Tailwind Css","n8n","Gemini API","Superbase"],
     "code":"https://github.com/LSUDOKO/AI_Recruiter_Agent.git",
@@ -21,7 +21,7 @@ export const getProjects = () => {
     {
     "id": 7,
     "name": "AI Nutrition Planner",
-    "image": "https://github-production-user-asset-6210df.s3.amazonaws.com/173903994/456082467-521550c8-0b8c-44ce-b457-45b88c945958.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250617%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250617T154223Z&X-Amz-Expires=300&X-Amz-Signature=1d8445db0bea9c038f3d38ed0e746f378a7377f4da4a3e4a6446db1355713d8f&X-Amz-SignedHeaders=host",
+    "image": "https://i.imgur.com/po62ESR.png",
     "description": 'AI Nutrition Planner is a smart platform that helps users make better dietary choices with AI-driven analysis and food tracking.It offers personalized insights to guide your nutrition journey.Simple, powerful, and designed to transform how you eat.',
     "tags": ["Next.js", "react.js", "gemini api", "mongoDB"],
     "code": "https://github.com/LSUDOKO/AI_Nutrition_Planner.git",
@@ -32,7 +32,7 @@ export const getProjects = () => {
   {
     "id": 4,
     "name": "SpeakPro AI",
-    "image": "https://github-production-user-asset-6210df.s3.amazonaws.com/173903994/456385772-a0aa132b-1fc1-4f56-9657-9c1d1873d683.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250618%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250618T075853Z&X-Amz-Expires=300&X-Amz-Signature=731c7f59734888b45ff0f32cc77c162d6658f77614d0d07bd084332cc97464b6&X-Amz-SignedHeaders=host",
+    "image": "https://i.imgur.com/6ZNJeQY.jpeg",
     "description": "SpeakPro AI is your personal AI coach to improve communication skills with real-time analysis and feedback.Perfect for interviews, social interactions, or professional conversations.Practice, improve, and speak with confidence.",
     "tags": ["react.js", "node.js", "python","streamlit","Groq LLM","Eleven Labs"],
     "demo": "https://x.com/ARPITSI03544750/status/1906242273207038378",
@@ -42,7 +42,7 @@ export const getProjects = () => {
   {
     "id":5,
     "name": "Weather App",
-    "image": "https://github-production-user-asset-6210df.s3.amazonaws.com/173903994/456087822-87227a1c-9359-4f36-936c-03502bc45bc5.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250617%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250617T155304Z&X-Amz-Expires=300&X-Amz-Signature=9a147f3ed9b52694e6cdcc9aae3705dac8b5ed0d1416350a661f8bbc3cbf132d&X-Amz-SignedHeaders=host",
+    "image": "https://i.imgur.com/ZjCAsY7.png",
     "description": "This is a responsive Weather Website created using HTML, CSS, and JavaScript. It fetches real-time weather data from the OpenWeatherMap API and displays it to the user in a clean and user-friendly interface.",
     "tags": ["Html", "css", "javascript","openweathermap"],
     "code": "https://github.com/LSUDOKO/Api-Weather-App",
@@ -53,7 +53,7 @@ export const getProjects = () => {
    {
     "id": 6,
     "name": "AI-Medical-ChatBot",
-    "image": "https://github-production-user-asset-6210df.s3.amazonaws.com/173903994/456386823-ca47a911-1129-4063-9e2e-7cc9ac4a53c9.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250618%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250618T081133Z&X-Amz-Expires=300&X-Amz-Signature=62a6bba36732afb01022b9b0ba76345e183dfdd9c412b2d81d13e95b6c90cf9a&X-Amz-SignedHeaders=host",
+    "image": "https://i.imgur.com/ogVYAC8l.jpg",
     "description": "AI Medical Chatbot answers health queries, analyzes symptoms, and offers AI-driven preliminary advice.It supports voice interaction, image-based diagnosis, and medical document processing.Seamlessly connects users to healthcare professionals when needed.",
     "tags": ["python", "docker", "liama-3-vision","openai-whisper","gradio","elevenlabs"],
     "code": "https://github.com/LSUDOKO/AI-Medical-ChatBot",
@@ -63,7 +63,7 @@ export const getProjects = () => {
   {
       "id":3,
       "name":"Fake News Detector",
-      "image":"https://github-production-user-asset-6210df.s3.amazonaws.com/173903994/456381421-2a89caed-f6f4-4272-b43e-a6a5255d7464.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250618%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250618T075744Z&X-Amz-Expires=300&X-Amz-Signature=fa293a6e4b4862e32e942f22b78bf0d905cfd2c0fc97a7e11f0d8059534a47a8&X-Amz-SignedHeaders=host",
+      "image":"https://i.imgur.com/DVPcZ0El.jpg",
       "description":"This project aims to identify and classify news articles as real or fake using Natural Language Processing (NLP) and Machine Learning techniques. With the rise of misinformation online, this tool helps in promoting fact-based content and digital awareness",
       "tags":["python","pandas","numpy","Scikit-learn","NLP"],
       "code":"https://github.com/LSUDOKO/Fake-News-Detector",
