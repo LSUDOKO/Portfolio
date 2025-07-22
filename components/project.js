@@ -26,7 +26,7 @@ export const getProjects = () => {
     "tags": ["Next.js", "react.js", "gemini api", "mongoDB"],
     "code": "https://github.com/LSUDOKO/AI_Nutrition_Planner.git",
     "demo": "https://ai-nutrition-planner.vercel.app/",
-    "demos":"https://x.com/ARPITSI03544750/status/1917219905029525520"
+    "demos":"https://youtu.be/MAD1h357hWQ?si=xA68DfePRHLNHzJ1"
   },
   
   {
@@ -35,7 +35,7 @@ export const getProjects = () => {
     "image": "https://i.imgur.com/6ZNJeQY.jpeg",
     "description": "SpeakPro AI is your personal AI coach to improve communication skills with real-time analysis and feedback.Perfect for interviews, social interactions, or professional conversations.Practice, improve, and speak with confidence.",
     "tags": ["react.js", "node.js", "python","streamlit","Groq LLM","Eleven Labs"],
-    "demo": "https://x.com/ARPITSI03544750/status/1906242273207038378",
+    "demo": "https://detectionai-zzji6a7xbpkayha8nkaysa.streamlit.app/",
     "code": "https://github.com/ZINKUNO/electrothon-ch",
     "demos":"https://x.com/ARPITSI03544750/status/1906242273207038378"
   },
@@ -46,7 +46,7 @@ export const getProjects = () => {
     "description": "This is a responsive Weather Website created using HTML, CSS, and JavaScript. It fetches real-time weather data from the OpenWeatherMap API and displays it to the user in a clean and user-friendly interface.",
     "tags": ["Html", "css", "javascript","openweathermap"],
     "code": "https://github.com/LSUDOKO/Api-Weather-App",
-    "demo": "api-weather-app-ebon.vercel.app",
+    "demo": "https://api-weather-app-ebon.vercel.app/",
     "demos":"https://x.com/ARPITSI03544750/status/1915120231946584575"
 
   },
@@ -70,25 +70,25 @@ export const getProjects = () => {
       "demo":"https://x.com/ARPITSI03544750/status/1915304711684604123",
       "demos":"https://x.com/ARPITSI03544750/status/1915304711684604123"
   },
-  
-  ]}
-  /*{
+  {
     "id": 7,
-    "name": "PlantCare APP",
-    "image": "https://mir-s3-cdn-cf.behance.net/projects/404/075b6d208373693.Y3JvcCwyNDA3LDE4ODIsMTI1LDk1.png",
-    "description": "An innovative plant care application powered by Google's Gemini API that provides instant plant identification and personalized care recommendations through AI technology. Leveraging Expo for the frontend and Node.js for the backend, the app delivers a seamless user experience with robust image processing capabilities.",
-    "tags": ["expo", "gemini", "typescript","express"],
-    "code": "https://github.com/LSUDOKO/PlantCare",
-    "demo": "https://x.com/ARPITSI03544750/status/1822508040329007111",
-    "demos":"https://x.com/ARPITSI03544750/status/1822508040329007111"
+    "name": "Multichain-USDC-Payment-Scheduler",
+    "image": "https://i.imgur.com/SNMGuAG.png",
+    "description": "Decentralised application (dApp) designed to automate USDC payments across multiple blockchain testnets (Ethereum Sepolia, Polygon Mumbai, and Arbitrum Sepolia) and some other Networks with the best analysis with LI.FI Which chain to select and the chain network by metamask",
+    "tags": ["MetaMask SDK", "LI.FI SDK", "Hardhat","React"],
+    "code": "https://github.com/LSUDOKO/Multichain-USDC-Payment-Scheduler.git",
+    "demo": "https://multichain-usdc-payment-scheduler.vercel.app/",
+    "demos":"https://youtu.be/Qcs9p9pUflg?si=OI5eauX4e3xtsel-"
   },
+
   {
     "id": 8,
-    "name": "Task It APP",
-    "image": "https://i0.wp.com/9to5google.com/wp-content/uploads/sites/4/2021/09/google-tasks-logo-new.jpeg?resize=1200%2C628&quality=82&strip=all&ssl=1",
-    "description": "A cutting-edge ToDo application built with React Native Expo that seamlessly combines functionality with aesthetic appeal. This feature-rich task manager offers scheduled local notifications, priority-based reminders, and offline storage capabilities, ensuring users never miss important tasks. The app stands out with its fluid interface enhanced by Lottie animations and React Native's native animations",
-    "tags": ["react native", "expo", "typescript","notification"],
+    "name": "CreatorPilot",
+    "image": "https://i.imgur.com/a9JLsnF.png",
+    "description": "CreatorPilot is an all-in-one AI assistant that transforms your content workflow and suggest how you grow your social media account",
+    "tags": ["react", "superbase", "pica api","Meta Graph API"],
     "code": "https://github.com/LSUDOKO/Tasks-App",
-    "demo": "https://x.com/ARPITSI03544750/status/1802397998522998793",
-    "demos":"https://x.com/ARPITSI03544750/status/1802397998522998793"
-  }*/
+    "demo": "https://astonishing-cupcake-c17d93.netlify.app/3",
+    "demos":"https://youtu.be/B0kTKNzlq_k?si=Z03O6mNJ1h7LOzxd"
+  },
+]}
